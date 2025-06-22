@@ -1,0 +1,128 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: url('https://static.vecteezy.com/system/resources/previews/030/629/560/large_2x/a-green-leaf-background-with-a-black-background-free-photo.jpg') 
+              no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Transparent Form Container */
+.form-container {
+  background: rgba(255, 255, 255, 0.75); /* Transparent white */
+  backdrop-filter: blur(12px); /* Frosted glass effect */
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 480px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Headings */
+.form-container h1,
+.form-container h2 {
+  text-align: center;
+  color: #14532d; /* Dark green */
+  margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  height: 10px;
+  background-color: #d1fae5; /* Light green */
+  border-radius: 20px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 50%;
+  background-color: #10b981; /* Emerald green */
+  transition: width 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+/* Labels and Inputs */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #064e3b; /* Deep green */
+}
+
+.required-star {
+  color: red;
+  margin-left: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f0fdf4;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+input:focus {
+  border-color: #10b981;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Error Styling */
+.input-error {
+  border-color: #ef4444;
+  background-color: #ffecec;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #059669;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover:not(:disabled) {
+  background-color: #047857;
+}
+
+button:disabled {
+  background-color: #bbf7d0;
+  cursor: not-allowed;
+}
+
+/* Success Message */
+.success-message {
+  text-align: center;
+  color: #15803d;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
