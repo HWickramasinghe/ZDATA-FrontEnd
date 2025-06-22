@@ -50,6 +50,27 @@ Password: Required and at least 6 characters
 Confirm Password: Must match Password
 
 
+## Some Screenshots are here 
+
+1.first page - 
+
+
+![image](https://github.com/user-attachments/assets/94889a95-9850-4eee-8331-ce6bd2369dba)
+
+
+2.first page (II)- Mobile number is optonal to move next page 
+
+![image](https://github.com/user-attachments/assets/8e07d921-f0dd-4578-b3f8-3da97d197193)
+
+
+3.second page 
+
+![image](https://github.com/user-attachments/assets/9723cc9d-59b7-4954-be3d-84834488f2ac)
+
+
+
+
+
 
 
 
