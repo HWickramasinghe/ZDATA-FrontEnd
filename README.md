@@ -26,17 +26,17 @@ This project is a **responsive**, **multi-step registration form** built using *
 ✅ Environment variable support using `.env`  
 ✅ Responsive and clean UI  
 
-##Install Dependencies
+## Install Dependencies
 
 npm install
 
 
-##Running the App
+## Running the App
 
 npm start
 
 
- Validation Rules
+## Validation Rules
 
  
 Full Name: Required
